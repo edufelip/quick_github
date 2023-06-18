@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB5E55412A3FC1A300EF6226 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E55402A3FC1A300EF6226 /* MainViewController.swift */; };
 		FBAF6EE12A3FB29800BB50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */; };
 		FBAF6EE32A3FB29800BB50DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */; };
-		FBAF6EE52A3FB29800BB50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF6EE42A3FB29800BB50DA /* ViewController.swift */; };
-		FBAF6EE82A3FB29800BB50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAF6EE62A3FB29800BB50DA /* Main.storyboard */; };
 		FBAF6EEA2A3FB29900BB50DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAF6EE92A3FB29900BB50DA /* Assets.xcassets */; };
 		FBAF6EED2A3FB29900BB50DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAF6EEB2A3FB29900BB50DA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB5E55402A3FC1A300EF6226 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FBAF6EDD2A3FB29800BB50DA /* QuickGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBAF6EE42A3FB29800BB50DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBAF6EE72A3FB29800BB50DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBAF6EE92A3FB29900BB50DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAF6EEC2A3FB29900BB50DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBAF6EEE2A3FB29900BB50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,11 +56,10 @@
 			children = (
 				FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */,
 				FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */,
-				FBAF6EE42A3FB29800BB50DA /* ViewController.swift */,
-				FBAF6EE62A3FB29800BB50DA /* Main.storyboard */,
 				FBAF6EE92A3FB29900BB50DA /* Assets.xcassets */,
 				FBAF6EEB2A3FB29900BB50DA /* LaunchScreen.storyboard */,
 				FBAF6EEE2A3FB29900BB50DA /* Info.plist */,
+				FB5E55402A3FC1A300EF6226 /* MainViewController.swift */,
 			);
 			path = QuickGitHub;
 			sourceTree = "<group>";
@@ -126,7 +123,6 @@
 			files = (
 				FBAF6EED2A3FB29900BB50DA /* LaunchScreen.storyboard in Resources */,
 				FBAF6EEA2A3FB29900BB50DA /* Assets.xcassets in Resources */,
-				FBAF6EE82A3FB29800BB50DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAF6EE52A3FB29800BB50DA /* ViewController.swift in Sources */,
+				FB5E55412A3FC1A300EF6226 /* MainViewController.swift in Sources */,
 				FBAF6EE12A3FB29800BB50DA /* AppDelegate.swift in Sources */,
 				FBAF6EE32A3FB29800BB50DA /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBAF6EE62A3FB29800BB50DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBAF6EE72A3FB29800BB50DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBAF6EEB2A3FB29900BB50DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
