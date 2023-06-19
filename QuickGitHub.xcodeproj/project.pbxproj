@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FB5E55412A3FC1A300EF6226 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E55402A3FC1A300EF6226 /* MainViewController.swift */; };
+		FB5E55472A3FE60E00EF6226 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E55462A3FE60E00EF6226 /* GithubUser.swift */; };
+		FB5E554C2A3FE84400EF6226 /* GithubUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E554B2A3FE84400EF6226 /* GithubUserResponse.swift */; };
 		FBAF6EE12A3FB29800BB50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */; };
 		FBAF6EE32A3FB29800BB50DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */; };
 		FBAF6EEA2A3FB29900BB50DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAF6EE92A3FB29900BB50DA /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		FB5E55402A3FC1A300EF6226 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB5E55462A3FE60E00EF6226 /* GithubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
+		FB5E554B2A3FE84400EF6226 /* GithubUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserResponse.swift; sourceTree = "<group>"; };
 		FBAF6EDD2A3FB29800BB50DA /* QuickGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB5E55442A3FE5F400EF6226 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E55452A3FE5FB00EF6226 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FB5E55452A3FE5FB00EF6226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E55462A3FE60E00EF6226 /* GithubUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB5E55492A3FE82B00EF6226 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E554A2A3FE83600EF6226 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB5E554A2A3FE83600EF6226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E554B2A3FE84400EF6226 /* GithubUserResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FBAF6ED42A3FB29800BB50DA = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +90,8 @@
 		FBAF6EDF2A3FB29800BB50DA /* QuickGitHub */ = {
 			isa = PBXGroup;
 			children = (
+				FB5E55492A3FE82B00EF6226 /* Data */,
+				FB5E55442A3FE5F400EF6226 /* Domain */,
 				FBAF6EE02A3FB29800BB50DA /* AppDelegate.swift */,
 				FBAF6EE22A3FB29800BB50DA /* SceneDelegate.swift */,
 				FBAF6EE92A3FB29900BB50DA /* Assets.xcassets */,
@@ -134,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5E55412A3FC1A300EF6226 /* MainViewController.swift in Sources */,
+				FB5E554C2A3FE84400EF6226 /* GithubUserResponse.swift in Sources */,
+				FB5E55472A3FE60E00EF6226 /* GithubUser.swift in Sources */,
 				FBAF6EE12A3FB29800BB50DA /* AppDelegate.swift in Sources */,
 				FBAF6EE32A3FB29800BB50DA /* SceneDelegate.swift in Sources */,
 			);
